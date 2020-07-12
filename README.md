@@ -1,8 +1,8 @@
 # Voicegain Platform
 
 Voicegain privides a Speech-to-Text Platform built around a Deep Neural Network ASR engine.
-It supports open vocabulary speech transcription (real-time and off-line) and speech recognition (using context free grammars).
-Both are accessible via Web API. In addition, the recognizer is available with MRCP interface.
+It supports two models - 1) large vocabulary speech transcription (invokable real-time and off-line) and 2) speech recognition using context free grammars.
+Both are accessible via Web API. Realtime Audio can be streamed over WebRTC, gRPC and web-sockets. In addition, the recognizer can be accessed using MRCP.
 Platform is accessible in the Cloud and can also be deployed at the [Edge](https://www.voicegain.ai/post/benefits-of-edge-deployment) (on-prem Edge Computing).
 
 This repository tracks public components of the Voicegain Platform. Things like:
